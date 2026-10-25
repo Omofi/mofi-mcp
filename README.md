@@ -1,7 +1,7 @@
 # Mofi
 
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-br.com.omofi%2Fmofi-0b7285)](https://registry.modelcontextprotocol.io/v0/servers?search=br.com.omofi/mofi)
-[![Site](https://img.shields.io/badge/site-omofi.com.br-68d3c9)](https://omofi.com.br/?utm_source=github&utm_medium=readme&utm_campaign=fundadores-2026-11)
+[![Site](https://img.shields.io/badge/site-omofi.com.br-68d3c9)](https://omofi.com.br/?utm_source=github&utm_medium=readme&utm_campaign=lancamento-2026-11)
 
 **PT-BR** · [English](#english)
 
@@ -14,7 +14,7 @@ no app ou pelo seu agente de IA via MCP (planos pagos) e CLI.
 - Não move dinheiro.
 - O login do banco acontece só no widget Pluggy Connect. O Mofi nunca vê a senha do seu banco.
 - Funciona com bancos brasileiros participantes do Open Finance.
-- Demo com dados fictícios: https://omofi.com.br/demo?utm_source=github&utm_medium=readme&utm_campaign=fundadores-2026-11
+- Demo com dados fictícios: https://omofi.com.br/demo?utm_source=github&utm_medium=readme&utm_campaign=lancamento-2026-11
 
 Este repositório só tem documentação e manifestos. O código do Mofi não é público.
 
@@ -89,7 +89,7 @@ in the app or from your AI agent via MCP (paid plans) and CLI.
 - Never moves money.
 - Bank login happens only in the Pluggy Connect widget. Mofi never sees your bank password.
 - Works with Brazilian banks in Open Finance. Brazil only.
-- Demo with fictional data: https://omofi.com.br/demo?utm_source=github&utm_medium=readme&utm_campaign=fundadores-2026-11
+- Demo with fictional data: https://omofi.com.br/demo?utm_source=github&utm_medium=readme&utm_campaign=lancamento-2026-11
 
 This repository holds docs and manifests only. Mofi's source code is not public.
 

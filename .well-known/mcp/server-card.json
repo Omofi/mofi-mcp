@@ -4,7 +4,7 @@
     "version": "1.0.0"
   },
   "description": "Ask your AI about your real Brazilian bank spending, via a read-only Open Finance bank connection. Pergunte à sua IA sobre seus gastos reais do banco.",
-  "homepage": "https://omofi.com.br/mcp?utm_source=smithery&utm_medium=directory&utm_campaign=fundadores-2026-11",
+  "homepage": "https://omofi.com.br/mcp?utm_source=smithery&utm_medium=directory&utm_campaign=lancamento-2026-11",
   "transport": {
     "type": "streamable-http",
     "url": "https://omofi.com.br/api/mcp"
