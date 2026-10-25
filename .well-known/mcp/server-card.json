@@ -1,0 +1,114 @@
+{
+  "serverInfo": {
+    "name": "Mofi",
+    "version": "1.0.0"
+  },
+  "description": "Ask your AI about your real Brazilian bank spending, via a read-only Open Finance bank connection. Pergunte à sua IA sobre seus gastos reais do banco.",
+  "homepage": "https://omofi.com.br/mcp?utm_source=smithery&utm_medium=directory&utm_campaign=fundadores-2026-11",
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://omofi.com.br/api/mcp"
+  },
+  "authentication": {
+    "required": true,
+    "schemes": [
+      "oauth2"
+    ],
+    "oauth": {
+      "version": "2.1",
+      "pkce": true,
+      "dynamicClientRegistration": true,
+      "scopes": [
+        "mcp:read",
+        "mcp:sync"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "mofi_identity_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_accounts_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_cards_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_spending_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_spending_summary_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_connections_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_recurring_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_classifications_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_transactions_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_statements_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_sync_get",
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "mofi_classifications_save",
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": false
+      }
+    },
+    {
+      "name": "mofi_connections_sync",
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": false
+      }
+    }
+  ],
+  "_draft_note": "Confirm schema at https://smithery.ai/docs/build/publish before hosting at https://omofi.com.br/.well-known/mcp/server-card.json. Tool descriptions: copy from production tools/list.",
+  "documentation": {
+    "pt-BR": "https://omofi.com.br/docs/mcp",
+    "overview": "https://omofi.com.br/mcp"
+  }
+}
