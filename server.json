@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "br.com.omofi/mofi",
   "title": "Mofi",
   "description": "Ask your AI about your Brazilian bank spending. Read-only Open Finance bank connection.",
