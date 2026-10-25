@@ -9,7 +9,7 @@ Entenda seus gastos em segundos.
 
 O Mofi conecta suas contas bancárias brasileiras via Open Finance. **A conexão bancária é somente leitura.**
 Você pergunta, o Mofi responde com seus dados reais:
-no app, no WhatsApp (em testes) ou pelo seu agente de IA via MCP e CLI.
+no app ou pelo seu agente de IA via MCP (planos pagos) e CLI.
 
 - Não move dinheiro.
 - O login do banco acontece só no widget Pluggy Connect. O Mofi nunca vê a senha do seu banco.
@@ -19,13 +19,15 @@ no app, no WhatsApp (em testes) ou pelo seu agente de IA via MCP e CLI.
 Este repositório só tem documentação e manifestos. O código do Mofi não é público.
 
 ## Conectar via MCP
+**O MCP está disponível nos planos pagos do Mofi.** Sem plano ativo, o servidor responde 402.
+
 Servidor remoto (Streamable HTTP + OAuth):
 
 ```
 https://omofi.com.br/api/mcp
 ```
 
-Claude, ChatGPT ou Cursor: adicione um conector/servidor MCP personalizado com a URL acima e entre com sua conta Mofi.
+Cursor (testado) ou outro cliente MCP compatível com OAuth: adicione um servidor MCP personalizado com a URL acima e entre com sua conta Mofi.
 Guia completo: https://omofi.com.br/docs/mcp
 
 Exemplos:
@@ -82,7 +84,7 @@ Understand your spending in seconds.
 
 Mofi connects Brazilian bank accounts through Open Finance. **The bank connection is read-only.**
 Ask questions and get answers from your real data:
-in the app, on WhatsApp (in testing), or from your AI agent via MCP and CLI.
+in the app or from your AI agent via MCP (paid plans) and CLI.
 
 - Never moves money.
 - Bank login happens only in the Pluggy Connect widget. Mofi never sees your bank password.
@@ -92,8 +94,10 @@ in the app, on WhatsApp (in testing), or from your AI agent via MCP and CLI.
 This repository holds docs and manifests only. Mofi's source code is not public.
 
 ### Connect via MCP
+**MCP is available on paid Mofi plans.** Without an active plan, the server returns 402.
+
 Remote server (Streamable HTTP + OAuth): `https://omofi.com.br/api/mcp`
-Add it as a custom connector in Claude, ChatGPT or Cursor and sign in with your Mofi account.
+Add it as a custom MCP server in Cursor (tested) or another MCP client with OAuth support and sign in with your Mofi account.
 Guide (Portuguese): https://omofi.com.br/docs/mcp
 
 ### Auth and tools

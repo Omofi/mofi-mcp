@@ -5,14 +5,14 @@
   "author": "Mofi",
   "authorUrl": "https://omofi.com.br",
   "cloudEndpoint": "https://omofi.com.br/api/mcp",
-  "description": "Ask your AI about your Brazilian bank spending. Read-only Open Finance bank connection, OAuth 2.1. Never moves money.",
+  "description": "Ask your AI about your Brazilian bank spending. Requires a paid Mofi plan. Read-only Open Finance bank connection, OAuth 2.1. Never moves money.",
   "homepage": "https://omofi.com.br/mcp?utm_source=lobehub&utm_medium=directory&utm_campaign=fundadores-2026-11",
   "tags": ["personal-finance", "open-finance", "brazil", "banking", "spending"],
   "localizations": [
     {
       "locale": "pt-BR",
       "name": "Mofi",
-      "description": "Pergunte à sua IA sobre seus gastos do banco. Conexão bancária somente leitura via Open Finance. Não move dinheiro."
+      "description": "Pergunte à sua IA sobre seus gastos do banco. Requer plano pago do Mofi. Conexão bancária somente leitura via Open Finance. Não move dinheiro."
     }
   ]
 }
