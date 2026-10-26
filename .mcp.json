@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "mofi": { "url": "https://omofi.com.br/api/mcp" }
+  }
+}

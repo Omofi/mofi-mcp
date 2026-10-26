@@ -2,13 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "br.com.omofi/mofi",
   "title": "Mofi",
-  "description": "Ask your AI about your Brazilian bank spending. Requires a paid Mofi plan. Read-only bank link.",
-  "version": "1.0.2",
-  "websiteUrl": "https://omofi.com.br/mcp?utm_source=mcp_registry&utm_medium=directory&utm_campaign=lancamento-2026-11",
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://omofi.com.br/api/mcp"
-    }
-  ]
+  "description": "Ask your AI about Brazilian bank spending. Read-only bank access, never moves money. Paid plan.",
+  "version": "1.0.3",
+  "websiteUrl": "https://omofi.com.br/desenvolvedores?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-directories",
+  "repository": { "url": "https://github.com/Omofi/mofi-mcp", "source": "github" },
+  "remotes": [ { "type": "streamable-http", "url": "https://omofi.com.br/api/mcp" } ]
 }
