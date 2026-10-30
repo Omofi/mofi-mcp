@@ -12,7 +12,7 @@ Você pergunta, o Mofi responde com seus dados reais:
 no app ou pelo seu agente de IA via MCP (planos pagos) e CLI.
 
 - Não move dinheiro.
-- O login do banco acontece só no widget Pluggy Connect. O Mofi nunca vê a senha do seu banco.
+- O login do banco acontece só na janela segura do provedor regulado. O Mofi nunca vê a senha do seu banco.
 - Funciona com bancos brasileiros participantes do Open Finance.
 - Demo com dados fictícios: https://omofi.com.br/demo?utm_source=github&utm_medium=directory&utm_campaign=mcp-directories
 
@@ -88,7 +88,7 @@ Ask questions and get answers from your real data:
 in the app or from your AI agent via MCP (paid plans) and CLI.
 
 - Never moves money.
-- Bank login happens only in the Pluggy Connect widget. Mofi never sees your bank password.
+- Bank login happens only in the regulated provider's secure window. Mofi never sees your bank password.
 - Works with Brazilian banks in Open Finance. Brazil only.
 - Demo with fictional data: https://omofi.com.br/demo?utm_source=github&utm_medium=directory&utm_campaign=mcp-directories
 
